@@ -1,0 +1,36 @@
+1) Difference between sdk jre jdk
+
+SDK - Software Development Kit (toolkit intended for coding on specific platform / software / framework)
+JDK - Java Development Kit (toolkit intended for coding in Java)
+JRE - Java Runtime Environment (programs capable to launch Java applications)
+
+2)Difference between 3 tools eclipse/sts/intelliJ
+
+Eclipse is better than IntelliJ for large and complex projects. 
+This is because it indexes the entire project during startup.
+STS is built on top of Eclipse. The difference is only related to another products support from the STS installation, 
+like Roo, Pivotal tc Server, Cloud Foundry and getting started guides, but you could also include this features in your
+ Eclipse installation.
+
+3)Sortcut keys of your eclipse?
+Alt+Enter : show Context Actions
+Quick-fixes for highlighted errors and warnings, intention actions for improving and optimizing your code.
+
+Ctrl+Shift+Enter
+Complete Current Statement
+Insert any necessary trailing symbols and put the caret where you can start typing the next statement.
+
+
+4)What are ascii values?
+ASCII is a 7-bit character set containing 128 characters. It contains the numbers from 0-9, the upper and lower case 
+English letters from A to Z, and some special characters. The character sets used in modern computers, in HTML, and on the Internet, are all based on ASCII.
+
+5)rogram to print all datatypes use and intialize and access?
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        int a = 5;
+        System.out.println(((Object)a).getClass().getSimpleName() );
+    }
+}
